@@ -1,0 +1,16 @@
+@use './vars';
+
+.ProductList {
+	display: grid;
+  grid-template-columns: auto auto; /* see notes below */
+  grid-gap: 3.6rem;
+  padding: 32px;
+	margin: 80px 0 0 0;
+}
+
+@media (max-width: 640px) {
+	.ProductList {
+		grid-template-columns: repeat(auto-fill, 480px);
+	}
+}
+
