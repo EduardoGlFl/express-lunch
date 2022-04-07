@@ -12,35 +12,17 @@ const MobileMenu = () => {
                     <a href="/">All</a>
                 </li>
                 <li>
-                    <a href="/">Clothes</a>
+                    <a href="/">Breakfast</a>
                 </li>
                 <li>
-                    <a href="/">Electronics</a>
+                    <a href="/">Lunch</a>
                 </li>
                 <li>
-                    <a href="/">Furnitures</a>
-                </li>
-                <li>
-                    <a href="/">Toys</a>
-                </li>
-                <li>
-                    <a href="/">Other</a>
+                    <a href="/">Shakes</a>
                 </li>
                 </ul>
 
                 <ul>
-                <li>
-                    <a href="/account">My account</a>
-                </li>
-                </ul>
-
-                <ul>
-                <li>
-                    <a href="/account" class="email">matiaschiodo@gmail.com</a>
-                </li>
-                <li>
-                    <a href="/signup" class="sign-out">Sign out</a>
-                </li>
             </ul>
         </div>
     );

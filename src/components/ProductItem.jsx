@@ -3,8 +3,6 @@ import '../styles/ProductItem.scss';
 import AppContext from '../context/AppContext';
 import ProductDetail from '../containers/ProductDetail';
 
-import addToCartImage from '@icons/bt_add_to_cart.svg';
-import addedToCartImage from '@icons/bt_added_to_cart.svg'
 
 const ProductItem = ({ product }) => {
 	const [ toggleProduct, setToggleProduct ] = useState(false);
@@ -32,7 +30,8 @@ const ProductItem = ({ product }) => {
           <p>{product.title}</p>
           <p>${product.price}</p>
         </div>
-        <div className="product-price-btn" onClick={() => handleClick(product)}>
+        <h3>{product.description}</h3>
+        <div className="product-price-btn"  onClick={() => handleClick(product)}>
           <button type="button">Add</button>
         </div>
       </div>

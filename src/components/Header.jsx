@@ -5,7 +5,6 @@ import MobileMenu from './MobileMenu';
 import AppContext from '../context/AppContext';
 import MyOrder from '../containers/MyOrder'
 import menu from '@icons/icon_menu.svg';
-import logo from '@logos/logo_yard_sale.svg';
 import shoppingCart from '@icons/icon_shopping_cart.svg';
 
 const Header = () => {
